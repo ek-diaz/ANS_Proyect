@@ -45,15 +45,19 @@ La base de datos utilizada en este proyecto contiene más de 24,000 observacione
 - **Librerías:** Scikit-learn, NLTK, Pandas, Matplotlib, Seaborn
 
 ## 📁 Estructura
+
 ANS_Proyect/
 │
-├── Datos                            # Archivos de datos
+├── Datos                                       # Archivos de datos
 │   ├── Short Patient Survey.csv                # Datos sin procesar
+│
 ├── Notebooks/                                  # Jupyter Notebook con datos pre-procesados y análisis exploratorio
 │   └── preprocesamiento.ipynb
-├── Documentación/                            # Archivo con propuesta inicial
+│
+├── Documentación/                              # Archivo con propuesta inicial
 │   └── Propuesta inicial.pdf
-└── README.md               # Este archivo
+│
+└── README.md                                   # Este archivo
 
 
 ## 👥 Autores
