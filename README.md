@@ -11,7 +11,6 @@ El objetivo principal es mejorar la evaluación de las encuestas de satisfacció
 
 En el sector de la salud, entender las necesidades y preocupaciones de los pacientes es crucial. Actualmente, la revisión de las respuestas abiertas en las encuestas de satisfacción se realiza de manera manual, lo que es ineficiente y lento. Este proyecto propone un cambio, utilizando herramientas de procesamiento del lenguaje natural (NLP) y técnicas de aprendizaje no supervisado como el clustering para analizar estos comentarios de manera más efectiva.
 
-<iframe src="https://giphy.com/embed/setIIIZYAz7qoWX0D3/video" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/clips/pandemic-setIIIZYAz7qoWX0D3">via GIPHY</a></p>
 
 ## 📊 Descripción de los Datos
 
@@ -23,6 +22,28 @@ La base de datos utilizada en este proyecto contiene más de 24,000 observacione
 | End Date       | Fecha de finalización de la encuesta         |
 | Language       | Idioma de la encuesta (inglés o español)     |
 | Comments       | Comentarios abiertos proporcionados por el paciente |
+
+| **Variable**                                                                              | **Descripción**                                                                                                                                          |
+|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Respondent ID**                                                                         | Identificador único del encuestado                                                                                                                       |
+| **Collector ID**                                                                          | Identificador único del colector de datos                                                                                                                |
+| **Start Date**                                                                            | Fecha de inicio de la encuesta                                                                                                                           |
+| **End Date**                                                                              | Fecha de finalización de la encuesta                                                                                                                     |
+| **Language**                                                                              | Idioma de la encuesta (inglés o español)                                                                                                                 |
+| **What sex were you assigned at birth?**                                                  | Sexo asignado al nacer                                                                                                                                   |
+| **What is your current Gender Identity?**                                                 | Identidad de género actual                                                                                                                               |
+| **What is your sexual orientation?**                                                      | Orientación sexual                                                                                                                                       |
+| **Are you a veteran?**                                                                    | Si el encuestado es veterano                                                                                                                             |
+| **Please check your race:**                                                               | Raza del encuestado                                                                                                                                      |
+| **Please select the Ethnicity:**                                                          | Etnicidad del encuestado                                                                                                                                 |
+| **Where was your appointment?**                                                           | Ubicación de la cita                                                                                                                                     |
+| **Appointment with who?**                                                                 | Con quién fue la cita                                                                                                                                     |
+| **When you contacted this health professional’s office to get an appointment for care you needed, did you get it as soon as you needed?** | Percepción del encuestado sobre la rapidez para obtener una cita al contactar la oficina del profesional de salud |
+| **During this visit, did this health professional listen carefully to you?**              | Evaluación sobre si el profesional de salud escuchó atentamente al paciente                                                                              |
+| **During this visit, were clerks and receptionists at this health professional's office as helpful as you thought they should be?** | Evaluación de la ayuda brindada por los empleados de recepción y administrativos durante la visita del paciente |
+| **Have you ever missed or re-scheduled your appointment because you were unable to pay the nominal fee?** | Si el encuestado ha perdido o reprogramado una cita por no poder pagar la tarifa nominal                       |
+| **Would you refer other family members and friends to CCI for care?**                     | Si el encuestado recomendaría a familiares y amigos a CCI para atención                                                                                  |
+| **Do you have any other comments or concerns?**                                           | Comentarios o preocupaciones adicionales proporcionados por el paciente                                                                                  |
 
 ## 🔍 Metodología
 
