@@ -4,7 +4,7 @@
 
 # 🏥 Análisis de Comentarios de Pacientes en una Clínica de Maryland 🩺
 
-¡Bienvenido al proyecto de análisis de comentarios de pacientes en **CCI Health Services**!, una clínica comunitaria ubicada en Maryland 🌎 Este proyecto utiliza técnicas avanzadas de aprendizaje no supervisado para mejorar la interpretación de las encuestas de satisfacción y, en última instancia, elevar la calidad de la atención al paciente. 💖
+Bienvenido al proyecto de análisis de comentarios de pacientes una clínica comunitaria ubicada en Maryland 🌎 Este proyecto utiliza técnicas avanzadas de aprendizaje no supervisado para mejorar la interpretación de las encuestas de satisfacción y, en última instancia, elevar la calidad de la atención al paciente. 💖
 
 ## 🧠 Objetivo del Proyecto
 
