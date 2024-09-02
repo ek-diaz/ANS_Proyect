@@ -50,13 +50,20 @@ La base de datos utilizada en este proyecto contiene más de 24,000 observacione
 ## 📁 Estructura
 
 - **ANS_Proyect/**
-  - **Datos**/  # Archivos de datos sin procesar
-    - `Short Patient Survey.csv`  
-  - **Documentación/**  # Archivo con propuesta inicial
-    - `Propuesta inicial.pdf`  
-  - **Notebooks/**  # Jupyter Notebook con datos pre-procesados y análisis exploratorio
-    - `preprocesamiento.ipynb`
-  - `README.md`  # Este archivo
+  - **config/** - Directorio de configuración del proyecto
+    - `variables.py` -
+  - **data/**  - Directorio de archivos de información
+    - **raw/** - Directorio con archivos brutos
+      - `short_patient_survey.csv`  
+  - **docs/**  - Directorio con documentación del proyecto
+    - `propuesta_inicial.docx`  
+  - **notebooks/**  - Jupyter Notebooks
+    - `00-EDA.ipynb`
+  - **src/** - Directorio con funciones
+    - **data_processing/** - Directorio con funciones de preprocesamiento
+      - `preprocess_artifacts.py`
+  - `.gitignore`
+  - `README.md`
 
 
 ## 👥 Autores
