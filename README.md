@@ -39,40 +39,30 @@ La base de datos utilizada en este proyecto contiene más de 24,000 observacione
 | **Would you refer other family members and friends to CCI for care?**                     | Si el encuestado recomendaría a familiares y amigos a CCI para atención                                                                                  |
 | **Do you have any other comments or concerns?**                                           | Comentarios o preocupaciones adicionales proporcionados por el paciente                                                                                  |
 
-## 🔍 Metodología
+## 🔧 Requisitos
 
-### 1. Preprocesamiento de Datos
-Antes de aplicar cualquier modelo, es fundamental limpiar y preparar los datos. Algunas de las tareas incluyen:
+- **Lenguajes:** Python
+- **Librerías:** Scikit-learn, NLTK, Pandas, Matplotlib, Seaborn
 
-- Conversión de texto a minúsculas
-- Eliminación de signos de puntuación y caracteres especiales
-- Remoción de *stopwords*
-- Lematización para reducir palabras a su forma base
+## 📁 Estructura
+ANS_Proyect/
+│
+├── Datos                            # Archivos de datos
+│   ├── Short Patient Survey.csv                # Datos sin procesar
+├── Notebooks/                                  # Jupyter Notebook con datos pre-procesados y análisis exploratorio
+│   └── preprocesamiento.ipynb
+├── Documentación/                            # Archivo con propuesta inicial
+│   └── Propuesta inicial.pdf
+└── README.md               # Este archivo
 
-### 2. Vectorización
-Se utiliza el vectorizador TF-IDF para convertir el texto preprocesado en representaciones numéricas, permitiendo así su procesamiento por algoritmos de aprendizaje automático.
 
-### 3. Reducción de Dimensionalidad
-- **Análisis de Componentes Principales (PCA)**: Para identificar patrones y reducir la complejidad.
-- **Descomposición en Valores Singulares (SVD)**: Para manejar matrices esparsas y obtener componentes clave.
+## 👥 Autores
+- Mauricio Gonzalez Caro
+- Eva Karina Diaz Gavalo 
+- Juan Felipe Padilla Sepúlveda
+- Andrés Eduardo Quiñones Ortiz
 
-### 4. Clustering
-Aplicamos diferentes algoritmos para agrupar los comentarios:
+## 📅 Estado del Proyecto
+### En Desarrollo 🚀
 
-- **K-Means**: Para particionar los datos en clusters iniciales.
-- **K-Medoids**: Verifica la estabilidad de los clusters obtenidos con K-Means.
-- **Clustering Jerárquico**: Permite visualizar relaciones jerárquicas entre los comentarios.
-- **DBSCAN**: Detecta patrones en los datos que otros métodos podrían pasar por alto.
-
-## 📚 Tecnologías Utilizadas
-
-- **Lenguajes de Programación:** Python
-- **Frameworks y Bibliotecas:** Scikit-learn, NLTK, Pandas, Matplotlib, Seaborn
-- **Herramientas:** Jupyter Notebook, Google Colab
-
-## 🔧 Requisitos Previos
-
-- **Python 3.x**
-- **Jupyter Notebook o Google Colab**
-- Instalación de bibliotecas: `scikit-learn`, `nltk`, `pandas`, `matplotlib`, `seaborn`
 
