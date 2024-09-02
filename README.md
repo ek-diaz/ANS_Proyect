@@ -1,4 +1,8 @@
 # ANS_Proyect
+
+## 📅 Estado del Proyecto
+### En Desarrollo 🚀
+
 # 🏥 Análisis de Comentarios de Pacientes en una Clínica de Maryland 🩺
 
 ¡Bienvenido al proyecto de análisis de comentarios de pacientes en **CCI Health Services**!, una clínica comunitaria ubicada en Maryland 🌎 Este proyecto utiliza técnicas avanzadas de aprendizaje no supervisado para mejorar la interpretación de las encuestas de satisfacción y, en última instancia, elevar la calidad de la atención al paciente. 💖
@@ -61,8 +65,3 @@ La base de datos utilizada en este proyecto contiene más de 24,000 observacione
 - Eva Karina Diaz Gavalo 
 - Juan Felipe Padilla Sepúlveda
 - Andrés Eduardo Quiñones Ortiz
-
-## 📅 Estado del Proyecto
-### En Desarrollo 🚀
-
-
