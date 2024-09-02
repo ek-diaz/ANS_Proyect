@@ -1,7 +1,6 @@
 # ANS_Proyect
 
-## 📅 Estado del Proyecto
-### En Desarrollo 🚀
+## 📅 Estado del Proyecto: ### En Desarrollo 🚀
 
 # 🏥 Análisis de Comentarios de Pacientes en una Clínica de Maryland 🩺
 
