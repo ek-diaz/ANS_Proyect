@@ -16,12 +16,6 @@ En el sector de la salud, entender las necesidades y preocupaciones de los pacie
 
 La base de datos utilizada en este proyecto contiene más de 24,000 observaciones y recoge información de encuestas realizadas entre 2019 y 2024. Los datos incluyen tanto respuestas estructuradas como comentarios abiertos en inglés y español. 🔄
 
-| Variable       | Descripción                                  |
-|----------------|----------------------------------------------|
-| Respondent ID  | Identificador único del encuestado           |
-| End Date       | Fecha de finalización de la encuesta         |
-| Language       | Idioma de la encuesta (inglés o español)     |
-| Comments       | Comentarios abiertos proporcionados por el paciente |
 
 | **Variable**                                                                              | **Descripción**                                                                                                                                          |
 |-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
